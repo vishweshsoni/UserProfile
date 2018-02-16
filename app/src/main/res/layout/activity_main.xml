@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout tools:context="com.example.vishwesh.bday1.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/background_profile" >
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/background"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="300dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:src="@drawable/plus" />
+        </FrameLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/name_profile"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="280dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Johnsan Jess"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textColor="#030303"
+        android:textSize="35sp"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:id="@+id/postProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Manager"
+        android:textColor="@color/title"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/emailProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/postProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Email:Jhonsonjess@gmail.com"
+        android:textColor="@color/title"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/salaryPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Salary: 30000 ₹ "
+        android:textColor="@color/title"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/instaPost"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/salaryPost"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="43dp"
+        android:layout_toStartOf="@+id/postProfile"
+        android:src="@drawable/instagram"
+        android:layout_toLeftOf="@+id/postProfile"
+        android:layout_marginRight="16dp" />
+
+    <ImageView
+        android:id="@+id/twitterPost"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/instaPost"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/linkedinPost"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/twitterPost"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/postProfile"
+        android:src="@drawable/linkedin"
+        android:layout_toRightOf="@+id/postProfile"
+        android:layout_marginLeft="14dp" />
+</RelativeLayout>
