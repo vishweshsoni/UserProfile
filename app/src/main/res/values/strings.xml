@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Happy Birthday!</string>
+    <string name="johnsan_jess">Johnsan Jess</string>
+    <string name="manager">Manager</string>
+    <string name="email_jhonsonjess_gmail_com">Email:Jhonsonjess@gmail.com</string>
+    <string name="salary_30000">Salary: 30000 ₹</string>
 </resources>

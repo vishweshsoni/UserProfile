@@ -43,7 +43,7 @@
         android:layout_marginTop="280dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Johnsan Jess"
+        android:text="@string/johnsan_jess"
         android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif"
         android:textColor="#030303"
@@ -57,7 +57,7 @@
         android:layout_below="@+id/name_profile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Manager"
+        android:text="@string/manager"
         android:textColor="@color/title"
         android:textSize="30sp"
         android:textStyle="italic" />
@@ -69,7 +69,7 @@
         android:layout_below="@+id/postProfile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Email:Jhonsonjess@gmail.com"
+        android:text="@string/email_jhonsonjess_gmail_com"
         android:textColor="@color/title"
         android:textSize="25sp"
         android:textStyle="italic" />
@@ -81,7 +81,7 @@
         android:layout_below="@+id/emailProfile"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Salary: 30000 ₹ "
+        android:text="@string/salary_30000"
         android:textColor="@color/title"
         android:textSize="25sp"
         android:textStyle="italic" />
